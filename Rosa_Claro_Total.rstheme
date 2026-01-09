@@ -1,0 +1,284 @@
+
+/* rs-theme-name: Rosa Claro Total */
+/* rs-theme-is-dark: FALSE */
+/* rs-theme-color-scheme: light */
+
+/* ========== FUNDO DE TUDO ========== */
+body,
+.rs-base,
+.rs-root,
+.rstudio-themes-flat,
+.rstudio-themes-flat #rstudio_container,
+.rstudio-themes-flat .windowframe,
+.rstudio-themes-flat .rstheme_primaryToolbar,
+.rstudio-themes-flat .rstheme_secondaryToolbar,
+.rstudio-themes-flat .gwt-SplitLayoutPanel,
+.rstudio-themes-flat .gwt-TabLayoutPanel,
+.ace_editor,
+.ace_scroller,
+.ace_content,
+.ace_text-input,
+.rstudio-themes-flat .ace_editor.ace_autocomplete,
+.ace_search,
+.ace_search_form,
+.ace_replace_form {
+  background-color: #FFFFFF !important;
+  color: #000000 !important;
+}
+
+/* ========== EDITOR PRINCIPAL ========== */
+.ace_editor {
+  background-color: #FFFFFF !important;
+  color: #000000 !important;
+}
+
+/* ========== GUTTER (NUMERAÇÃO) ========== */
+.ace_gutter {
+  background-color: #F8F8F8 !important;
+  color: #888888 !important;
+  border-right: 1px solid #E0E0E0 !important;
+}
+
+.ace_gutter-cell {
+  background-color: #F8F8F8 !important;
+}
+
+/* ========== LINHA ATIVA ========== */
+.ace_active-line {
+  background-color: #FFF0F5 !important; /* Rosa muito claro */
+}
+
+/* ========== SELEÇÃO DE TEXTO ========== */
+.ace_selection {
+  background-color: #FFE4EC !important; /* Rosa claro */
+}
+
+/* ========== CURSOR ========== */
+.ace_cursor {
+  color: #FF1493 !important; /* Rosa forte */
+  border-left: 2px solid #FF1493 !important;
+}
+
+/* ========== SINTAXE - CORES PERSONALIZADAS ========== */
+
+/* COMENTÁRIOS - ROXO como você pediu */
+.ace_comment {
+  color: #9370DB !important; /* Roxo médio */
+  font-style: italic !important;
+}
+
+/* PALAVRAS-CHAVE - ROSA */
+.ace_keyword,
+.ace_storage,
+.ace_storage.ace_type {
+  color: #FF1493 !important; /* Rosa forte */
+  font-weight: bold !important;
+}
+
+/* STRINGS - PRETO (ou cinza escuro) */
+.ace_string {
+  color: #333333 !important;
+}
+
+/* NÚMEROS - CINZA ESCURO */
+.ace_constant.ace_numeric,
+.ace_constant.ace_character,
+.ace_constant.ace_other {
+  color: #666666 !important;
+}
+
+/* FUNÇÕES - AZUL SUAVE */
+.ace_support.ace_function {
+  color: #1E90FF !important; /* Azul */
+}
+
+/* VARIÁVEIS - PRETO */
+.ace_variable {
+  color: #000000 !important;
+}
+
+/* OPERADORES - CINZA */
+.ace_operator {
+  color: #888888 !important;
+}
+
+/* ========== ABAS ========== */
+.gwt-TabLayoutPanelTab-selected {
+  background-color: #FFFFFF !important;
+  color: #FF1493 !important; /* Rosa */
+  font-weight: bold !important;
+  border-bottom: 2px solid #FF1493 !important;
+}
+
+.gwt-TabLayoutPanelTab {
+  background-color: #FFFFFF !important;
+  color: #888888 !important;
+  border-bottom: 1px solid #E0E0E0 !important;
+}
+
+/* ========== CONSOLE ========== */
+.console,
+.ace_console,
+.rstudio-themes-flat .console,
+.rstudio-themes-flat .ace_console {
+  background-color: #FFFFFF !important;
+  color: #000000 !important;
+}
+
+.console-output {
+  color: #000000 !important;
+}
+
+/* OUTPUT COLORIDO DO CONSOLE */
+.console-message {
+  color: #1E90FF !important; /* Azul para mensagens */
+}
+
+.console-error {
+  color: #FF0000 !important; /* Vermelho para erros */
+}
+
+.console-warning {
+  color: #FF8C00 !important; /* Laranja para warnings */
+}
+
+/* ========== PAINEL DE ENVIRONMENT ========== */
+.data-grid-header,
+.data-grid-row,
+.rstudio-themes-flat .data-grid-header,
+.rstudio-themes-flat .data-grid-row {
+  background-color: #FFFFFF !important;
+  color: #000000 !important;
+  border-color: #E0E0E0 !important;
+}
+
+.data-grid-header-cell {
+  background-color: #F8F8F8 !important;
+  color: #000000 !important;
+  border-bottom: 2px solid #E0E0E0 !important;
+}
+
+/* ========== PAINÉIS LATERAIS ========== */
+.rstudio-themes-flat .rstheme_toolbarWrapper,
+.rstudio-themes-flat .rstheme_tabLayoutPanel,
+.rstudio-themes-flat .gwt-SplitLayoutPanel {
+  background-color: #FFFFFF !important;
+}
+
+/* ========== BARRAS DE ROLAGEM ========== */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F0F0F0 !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FFB6C1 !important; /* Rosa claro */
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FF69B4 !important; /* Rosa médio */
+}
+
+/* ========== DIVISÓRIAS ========== */
+.rstudio-themes-flat .gwt-SplitLayoutPanel-HDragger {
+  background-color: #E0E0E0 !important;
+}
+
+.rstudio-themes-flat .gwt-SplitLayoutPanel-VDragger {
+  background-color: #E0E0E0 !important;
+}
+
+/* ========== BOTÕES E CONTROLES ========== */
+.rstudio-themes-flat .gwt-Button,
+.rstudio-themes-flat .gwt-ListBox,
+.rstudio-themes-flat .gwt-TextBox {
+  background-color: #FFFFFF !important;
+  color: #000000 !important;
+  border: 1px solid #E0E0E0 !important;
+}
+
+/* ========== MENUS ========== */
+.rstudio-themes-flat .gwt-MenuBar {
+  background-color: #FFFFFF !important;
+  color: #000000 !important;
+  border: 1px solid #E0E0E0 !important;
+}
+
+.rstudio-themes-flat .gwt-MenuItem {
+  background-color: #FFFFFF !important;
+  color: #000000 !important;
+}
+
+.rstudio-themes-flat .gwt-MenuItem-selected {
+  background-color: #FFE4EC !important; /* Rosa claro */
+  color: #FF1493 !important; /* Rosa */
+}
+
+/* ========== BARRA DE STATUS ========== */
+.rstudio-themes-flat .rstudio-themes-dark-grey {
+  background-color: #FFFFFF !important;
+  color: #000000 !important;
+  border-top: 1px solid #E0E0E0 !important;
+}
+
+/* ========== AUTO-COMPLETE ========== */
+.ace_editor.ace_autocomplete {
+  background-color: #FFFFFF !important;
+  color: #000000 !important;
+  border: 1px solid #E0E0E0 !important;
+}
+
+.ace_line-hover {
+  background-color: #FFE4EC !important; /* Rosa claro no hover */
+}
+
+.ace_completion-highlight {
+  color: #FF1493 !important; /* Rosa para destaque */
+}
+
+/* ========== ÁREA DE PLOTS ========== */
+.rstudio-themes-flat .plot,
+.rstudio-themes-flat .rs_graphicsDeviceContainer {
+  background-color: #FFFFFF !important;
+}
+
+/* ========== PAINEL DE FILES ========== */
+.rstudio-themes-flat .gwt-Tree {
+  background-color: #FFFFFF !important;
+  color: #000000 !important;
+}
+
+.rstudio-themes-flat .gwt-TreeItem-selected {
+  background-color: #FFE4EC !important; /* Rosa claro */
+  color: #FF1493 !important; /* Rosa */
+}
+
+/* ========== LINHAS DO EDITOR ========== */
+.ace_line {
+  color: #000000 !important;
+}
+
+/* ========== SEARCH/REPLACE ========== */
+.ace_search {
+  background-color: #FFFFFF !important;
+  border: 1px solid #E0E0E0 !important;
+}
+
+.ace_search_field {
+  background-color: #FFFFFF !important;
+  color: #000000 !important;
+  border: 1px solid #E0E0E0 !important;
+}
+
+/* ========== TÍTULOS E RÓTULOS ========== */
+.rstudio-themes-flat .gwt-Label,
+.rstudio-themes-flat .gwt-HTML,
+.rstudio-themes-flat .gwt-InlineLabel {
+  color: #000000 !important;
+}
+
