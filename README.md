@@ -99,4 +99,3 @@ Created by **Suami Rocha**
 ---
 
 ✨ If you like this theme, don’t forget to leave a ⭐ on the repository!
-# rosa_claro_total_rstheme
