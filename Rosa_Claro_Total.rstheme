@@ -23,7 +23,7 @@ body,
 .ace_search_form,
 .ace_replace_form {
   background-color: #FFFFFF !important;
-  color: #000000 !important;
+  color: #FF1493 !important;
 }
 
 /* ========== EDITOR PRINCIPAL ========== */
@@ -61,7 +61,7 @@ body,
 
 /* ========== SINTAXE - CORES PERSONALIZADAS ========== */
 
-/* COMENTÁRIOS - ROXO como você pediu */
+/* COMENTÁRIOS */
 .ace_comment {
   color: #9370DB !important; /* Roxo médio */
   font-style: italic !important;
@@ -87,9 +87,9 @@ body,
   color: #666666 !important;
 }
 
-/* FUNÇÕES - AZUL SUAVE */
+/* FUNÇÕES - ROXO SUAVE */
 .ace_support.ace_function {
-  color: #1E90FF !important; /* Azul */
+  color: #9370DB !important; /* Roxo */
 }
 
 /* VARIÁVEIS - PRETO */
@@ -131,7 +131,7 @@ body,
 
 /* OUTPUT COLORIDO DO CONSOLE */
 .console-message {
-  color: #1E90FF !important; /* Azul para mensagens */
+  color: #9370DB !important; /* Azul para mensagens */
 }
 
 .console-error {
